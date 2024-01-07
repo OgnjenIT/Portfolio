@@ -1,0 +1,151 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+}
+
+
+.left {
+    background-color: #1a1c19;
+    height: 100%;
+    width: 50%;
+}
+
+.right {
+    background-color: #010101;
+    height: 100%;
+    width: 50%;
+}
+
+.bi-code-slash {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo a {
+    margin-top: 50px;
+    margin-left: 192px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.logo a:hover {
+    color: white;
+}
+
+.naslov,
+.naslov1 {
+    color: white;
+    font-size: 3em;
+    margin-left: 207px;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.naslov {
+    margin-top: 181px;
+}
+
+.naslov3 {
+    color: white;
+    margin-top: 20px;
+    margin-left: 208px;
+    width: 60%;
+}
+
+.socialButton,
+.aboutmeButton {
+    background-color: white;
+    color: #010101;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 1.3em;
+    padding: 13px;
+    margin-left: 15px;
+    line-height: 1.3em;
+    font-weight: 600;
+}
+
+.buttons {
+    margin-left: 192px;
+    margin-top: 35px;
+}
+
+.socialButton:hover {
+    color: rgb(75, 75, 75);
+}
+
+.aboutmeButton:hover {
+    color: rgb(75, 75, 75);
+}
+
+@media (max-width: 800px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        flex: none;
+        width: 100%;
+    }
+}
+
+.rightNav {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+
+.rightNav a {
+    color: #8A8A8A;
+    font-size: 1.2em;
+    margin-left: 35px;
+}
+
+.rightNav a:hover {
+    color: white;
+}
+
+.image-container {
+    position: relative;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+img {
+    height: 480px;
+    width: 400px;
+    border-radius: 20px;
+    border-image: fill;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 10px;
+    /* Prilagodite vrijednost prema potrebi (udaljenost od dna) */
+    left: 10px;
+    /* Prilagodite vrijednost prema potrebi (udaljenost od desne strane) */
+    color: #ffffff;
+    /* Boja teksta */
+    background-color: rgba(26, 28, 25, 0.7);
+    /* Pozadinska boja teksta s prozirnošću */
+    padding: 10px;
+    /* Dodajte razmak oko teksta */
+    border-radius: 5px;
+    /* Radijus ruba teksta */
+}
+
+.overlay-text span {
+    display: block;
+}
