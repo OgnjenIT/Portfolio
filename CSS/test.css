@@ -1,0 +1,21 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    height: 100%;
+}
+
+.left {
+    width: 50%;
+    background-color: red;
+    height: auto;
+}
+
+.right {
+    height: auto;
+    width: 50%;
+    background-color: blue;
+}
